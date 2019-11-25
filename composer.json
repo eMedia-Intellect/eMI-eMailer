@@ -1,0 +1,40 @@
+{
+	"name": "emedia-intellect/emi-emailer",
+	"description": "A simple cross-platform object-oriented SMTP client.",
+	"type": "library",
+	"keywords": ["client", "email", "sender", "smtp"],
+	"homepage": "https://emi.is/?page=solutions&solution=emi-emailer",
+	"license": "GPL-3.0",
+	"authors":
+	[
+		{
+			"name": "Stefán Örvar Sigmundsson",
+			"email": "stefan.orvar.sigmundsson@emi.is",
+			"homepage": "https://sos.emi.is/",
+			"role": "programmer"
+		}
+	],
+	"support":
+	{
+		"email": "emi@emi.is",
+		"source": "https://github.com/eMedia-Intellect/eMI-eMailer"
+	},
+	"require":
+	{
+		"php": ">=7.2"
+	},
+	"autoload":
+	{
+		"classmap":
+		[
+			"Library/Exceptions/CommunicationException.php",
+			"Library/Exceptions/ExtensionException.php",
+			"Library/Exceptions/MailFromException.php",
+			"Library/Exceptions/SocketException.php",
+			"Library/MimeBodyPart.php",
+			"Library/MimeMultipartBodyPart.php",
+			"Library/MimeMessage.php",
+			"Library/SmtpClient.php"
+		]
+	}
+}
